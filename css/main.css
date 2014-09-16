@@ -59,7 +59,21 @@ body {
   width: 7.3%;
 
   background-color: rgba(204, 204, 204, 0);
+  
+   transition: 
+		background-color 1000ms linear,
+		boder-radius 2000ms linear
+	;
+	
+	transition: all 250ms linear;
 }
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active{
+	background-color:  rgba(204, 204, 204, 0.5);
+}
+
+
 
 .chart__link,
 .chart__link:link,
