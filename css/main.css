@@ -93,6 +93,23 @@ body {
   width: 100%;
 
   text-align: center;
+  
+     transition: 
+		background-color 1000ms linear,
+		boder-radius 2000ms linear
+	;
+	
+	transition: all 250ms linear;
+}
+.chart__label:hover,
+.chart__label:focus,
+.chart__label:active{
+	background-color:  rgba(204, 204, 204, 0.5);
+}
+
+.chart__item:hover .chart__label
+{
+	color: #fff;
 }
 
 .chart__bar-wrap {
