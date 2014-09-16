@@ -92,8 +92,20 @@ body {
   top: 0;
 
   background-color: rgba(127, 219, 255, 0.6);
+  
+  transition: 
+		background-color 1000ms linear,
+		boder-radius 2000ms linear
+	;
+	
+	transition: all 250ms linear;
 }
 
+.chart__bar:hover,
+.chart__bar:focus,
+.chart__bar:active{
+	background-color: rgba(127, 219, 255, 1);
+}
 .chart__count {
   display: inline-block;
   left: -2.3em;
